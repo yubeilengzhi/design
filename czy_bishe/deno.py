@@ -21,12 +21,12 @@ def getPrime(lower, upper):
 # A. 系统设置阶段 KGC
 KGC = {}
 # 获取大质数 p 1009
-p = getPrime(999, 1050)
+p = bin(getPrime(999, 1050))
 # 程序很难表示无穷大 ，用 （-1000，1000） 作为范围
-K_SN = random.randrange(-1000,1000) # SNS
-K_UE = random.randrange(-1000,1000) # UES
-K_MD = random.randrange(-1000,1000) # MDS
-x = random.randrange(-1000,1000)
+K_SN = bin(random.randrange(-1000,1000)) # SNS
+K_UE = bin(random.randrange(-1000,1000)) # UES
+K_MD = bin(random.randrange(-1000,1000)) # MDS
+x = bin(random.randrange(-1000,1000))
 
 
 
